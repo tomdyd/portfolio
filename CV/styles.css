@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: rgba(128, 128, 128);
+  background-color: rgb(100, 100, 100);
   margin: 0;
 }
 
@@ -84,16 +84,16 @@ img {
   margin: 0 10% 3% 10%;
 }
 
-.experience {
-  background-color: #fff;
-  width: 67%;
-}
-
-.contact-list {
+.information ul {
   list-style: none;
   padding: 0;
   margin: 0 10% 10% 10%;
-  font-size: 83%;
+  font-size: 80%;
+}
+
+.experience {
+  background-color: #fff;
+  width: 67%;
 }
 
 .fa-solid {
@@ -103,12 +103,6 @@ img {
   text-align: center;
   background-color: #343b40;
   color: #c3d8df;
-}
-
-.skills-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 10% 0 10%;
 }
 
 .skills-list li {
