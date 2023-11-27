@@ -1,0 +1,168 @@
+/******************************************
+*  Author : Author   
+*  Created On : Sun Nov 26 2023
+*  File : styles.css
+*******************************************/
+:root {
+  font-size: 84.5%;
+  font-family: "Montserrat";
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: rgba(128, 128, 128);
+  margin: 0;
+}
+
+.content {
+  width: 210mm;
+  height: 296.8mm;
+}
+
+.header {
+  display: flex;
+  height: 20%;
+  background-color: #10657e;
+}
+
+.picture {
+  display: flex;
+  width: 33%;
+  background: linear-gradient(to bottom left, #10657e 50%, #c3d8df 50%);
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  background-color: #10657e;
+  width: 67%;
+}
+
+img {
+  width: 60%;
+  height: auto;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head h1 {
+  color: #fff;
+  font-size: 3em;
+  margin: 0;
+}
+
+.head p {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0 5% 0 0;
+  padding: 0 0 2.5% 1%;
+  border-bottom: 3px solid #fff;
+}
+
+.main {
+  display: flex;
+  height: 80%;
+}
+
+.information {
+  background-color: #c3d8df;
+  width: 33%;
+  padding: 4% 0 0 0;
+}
+
+.information h2 {
+  border-top: solid black 3px;
+  padding-top: 5%;
+  margin: 0 10% 3% 10%;
+}
+
+.experience {
+  background-color: #fff;
+  width: 67%;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 10% 10% 10%;
+  font-size: 83%;
+}
+
+.fa-solid {
+  min-width: 6%;
+  margin: 1% 3% 1% 0;
+  padding: 2% 2% 2% 2%;
+  text-align: center;
+  background-color: #343b40;
+  color: #c3d8df;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 10% 0 10%;
+}
+
+.skills-list li {
+  padding: 6% 0 0 0;
+}
+
+.experience {
+  padding: 4% 0 0 0;
+}
+
+.experience h2 {
+  border-top: solid black 3px;
+  padding-top: 2.5%;
+  margin: 0 7% 2% 7%;
+}
+
+.experience h3 {
+  margin: 0 7% 0 7%;
+}
+
+.experience ul {
+  margin: 0 7% 2% 7%;
+}
+
+.experience ul li {
+  margin: 1% 0 1% 0;
+}
+
+.experience p {
+  font-weight: bold;
+  margin: 2% 7% 2% 7%;
+}
+
+.downloadBtn {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 14%;
+}
+
+button {
+  padding: 20px 40px;
+  margin: 20px;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  font-size: 1.3em;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #ddd;
+  color: #000;
+}

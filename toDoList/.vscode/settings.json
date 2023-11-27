@@ -1,0 +1,7 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 200,
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.endOfLine": "lf",
+  "prettier.bracketSameLine": false
+}
