@@ -28,7 +28,7 @@ const saveAsPDF = () => {
     margin: 0,
     filename: "CV_Dyda_Tomasz.pdf",
     image: { type: "jpeg", quality: 1 },
-    html2canvas: { scale: 3.7 },
+    html2canvas: { scale: 3.65 },
     jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
   };
 
@@ -50,10 +50,6 @@ const addFontFamily = () => {
     "href",
     "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap"
   );
-
-  console.log(fontFamilyPreconnectAPI);
-  console.log(fontFamilyPreconnectGstatic);
-  console.log(fontFamily);
 
   HTMLhead.append(
     fontFamilyPreconnectAPI,
